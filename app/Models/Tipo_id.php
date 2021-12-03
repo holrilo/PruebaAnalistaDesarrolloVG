@@ -10,5 +10,5 @@ class Tipo_id extends Model
     use HasFactory;
 
     protected $table = "tipo_id";
-    protected $primarykey = "id_tipo_id";
+    protected $primaryKey = "id_tipo_id";
 }
