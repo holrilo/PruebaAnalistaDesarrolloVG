@@ -1,8 +1,16 @@
 # PruebaAnalistaDesarrolloVG
 
-Se Crea Crud de registro de clientes con laravel 8 De la siguiente manera  
+Se Crea Crud de registro de clientes con laravel 8 y manejo de la base de datos con el ORM de ELOQUENT De la siguiente manera  
 
-- Se despliega modulo de registro de clientes en Heroku
+- Se crea base de datos con las siguientes tablas :
+  - tip_id
+  - estado
+  - tipo_cliente
+  - cliente
+  
+  las tabla tipo_id, estado, tipo_cliente cuenta con su primary Key y estas se relacionan en la tabla cliente  como foreign key 
+
+- Se despliega modulo de registro de clientes en Heroku y base de datos posgres 
 
 - Se crea interface de registro con laravel el cual se puede consulta en la siguiente ruta 
   https://pruebaanalistadesarrollovg.herokuapp.com/
