@@ -10,5 +10,5 @@ class Tipo_Cliente extends Model
     use HasFactory;
 
     protected $table = "tipo_cliente";
-    protected $primarykey = "id_tipo_cliente";
+    protected $primaryKey = "id_tipo_cliente";
 }
